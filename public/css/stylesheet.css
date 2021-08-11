@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: #faf9f8
+}
+
+.main-content {
+    padding: 16px 0;
+    border-bottom: gray;
+}
+
+header {
+    color: #000000;
+    font-family: 'Yellowtail', cursive;
+    font-size: 80px;
+    padding: 16px 0, 0, 0;
+    margin: auto 0;
+    filter: drop-shadow(0 0 0.4rem red);
+}
+
+.sub-script {
+    color: #000000;
+    font-family: 'Yellowtail', cursive;
+    font-size: 32px;
+    filter: drop-shadow(0 0 0.4rem red)
+}
+
+.search-box {
+    border-radius: 5px;
+    font-family: arial;
+}
+
+.search-box::placeholder {
+    font-family: arial;
+    text-align: center;
+}
+
+.whois-info {
+    width: 800px;
+    font-family: arial;
+    word-wrap: break-word;
+    font-weight: bold;
+    background-color: white;
+}
+
+.whois-info p {
+    padding: 5px 20px;
+}
+
+.whois-info {
+    border: 2px solid gray;
+    border-radius: 5%;
+}
+
+.dns-info {
+    width: 800px;
+    font-family: arial;
+    word-wrap: break-word;
+    font-weight: bold;
+    background-color: white;
+}
+
+.dns-info p {
+    padding: 5px 20px;
+}
+
+.dns-info {
+    border: 2px solid gray;
+    border-radius: 5%;
+}
+
+hr {
+    width: 500px;
+}
+
+#correct {
+    color: #08a628;
+}
+
+#incorrect {
+    color: #b51610;
+}
